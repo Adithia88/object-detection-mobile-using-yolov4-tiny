@@ -1,6 +1,5 @@
 # Adithia88-Adithia88-object-detection-mobile-using-yolov4-tiny
 
-
 This is an implementation of image classification using Teachable machine learning on Python 3, then implement it to mobile phone.
 
 ![Image Classification Sample](assets/1.PNG)
