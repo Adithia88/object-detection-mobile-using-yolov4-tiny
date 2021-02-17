@@ -1,80 +1,43 @@
 # Adithia88-Adithia88-object-detection-mobile-using-yolov4-tiny
 
-This is an implementation of image classification using Teachable machine learning on Python 3, then implement it to mobile phone.
+This is an implementation of object detecton using Yolov4 Tiny on Python 3, then implement it to mobile phone.
 
-![Image Classification Sample](assets/1.PNG)
+![Object Detection Sample](assets/6.png)
 
 Download This: https://drive.google.com/file/d/1NYSyy5QN9Z8F2tFDVuDSNxQp92psl_1F/view?usp=sharing
 
 The repository includes:
-* Using teachable machine learning for image classification 
-* Evaluation (confussion matrix) 
 * Deploy it to Mobile phone 
 
 
 # Getting Started
-Download this repo and dataset too, if u want use this dataset
-* start from making image classification models using teachable machine learning 
+* Install Android Studio, u can download here https://developer.android.com/studio?hl=id
+* Download this repo and download the android package (https://drive.google.com/file/d/1NYSyy5QN9Z8F2tFDVuDSNxQp92psl_1F/view?usp=sharing)
 * deploy on mobile phone
-
-additional info :
-teachable machine is algorithm to make model easy based on web ( https://teachablemachine.withgoogle.com/train/image )
-
-
-# Training on Your Own Dataset using teachable machine learning
-
-1. Make sure the path like this, and open this link : https://teachablemachine.withgoogle.com/train/image
-
-![Important Path](assets/2.PNG)
-
-![u can see the UI from teachable Machine ](assets/3.PNG)
-
-2. Upload all data to teachable machine, just drag it and drop to upload link 
-
-![upload all data halal haram meragukan ](assets/4.PNG)
-
-3. just click train model or u can advance it with ur configuration
-
-![training configuration](assets/5.PNG)
-
-4. u can see teh evaluation and ploting, just click "under the hood" 
-
-![testing evaluation](assets/6.PNG)
-
-5. Download 2 model , we need 2 model to deploy it to android
-
-* click export model and go to tensorflow lite mode and download "floating point" and "quantized model" 
-
-![model 1](assets/7.PNG)
-
 
 
 # Deploy on android
 
-1. after u download this repo, go to path : "Halal_haram_doubt detector\app\src\main\assets" and put it the download model and extract it
+1. after u download this repo and android Package, go to that path using android Studio (exisiting project)
 
-![extract data ](assets/8.PNG)
+![extract data ](assets/1.png) 
 
-2. download android studio and install it, u can download here : https://developer.android.com/studio?hl=id
+2.open path app/assets , there u can see the model yolov4-416-fp-16.tflite 
 
-3. open android studio and exisiting project 
+![android studio ](assets/2.png)
 
-![android studio ](assets/9.PNG)
+3. Then click that model, press right mouse and show explorer, this will direct u too model path and coco.txt (label path)
 
-it will take time for download some gradle 
+![android studio ](assets/3.png)
 
-4.just put the path where u place this repo 
+4. Just change the model and coco.txt as yours, in this case we use (yolov4 tiny model u can see my repo, how to train it, and about coco.txt make as your labels)
 
-![android studio ](assets/10.PNG)
+![android studio ](assets/4.png)
 
 5. go to build - build APK
 
-![android studio ](assets/11.PNG)
-
-6. from here u get the app just put it to gdrive and download it (app-debug.apk)
-
-![android studio ](assets/12.PNG)
+![android studio ](assets/5.png)
 
 # result 
 
-![android studio ](assets/1.PNG)
+![android studio ](assets/6.PNG)
