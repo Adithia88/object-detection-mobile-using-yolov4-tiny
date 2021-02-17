@@ -40,4 +40,4 @@ The repository includes:
 
 # result 
 
-![android studio ](assets/6.PNG)
+![android studio ](assets/6.png)
